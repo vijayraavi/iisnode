@@ -31,7 +31,7 @@ Hosting node.js applications in IIS on Windows
 
 **Installing for IIS 7.x/8.x**
 
-- Install iisnode for IIS 7.x/8.x: [x86](https://github.com/azure/iisnode/releases/download/v0.2.11/iisnode-full-v0.2.11-x86.msi) or [x64](https://github.com/azure/iisnode/releases/download/v0.2.11/iisnode-full-v0.2.11-x64.msi) - choose bitness matching your system
+- Install iisnode for IIS 7.x/8.x: [x86](https://github.com/azure/iisnode/releases/download/v0.2.21/iisnode-full-v0.2.21-x86.msi) or [x64](https://github.com/azure/iisnode/releases/download/v0.2.21/iisnode-full-v0.2.21-x64.msi) - choose bitness matching your system
 - To set up samples, from the administrative command prompt call `%programfiles%\iisnode\setupsamples.bat`
 - Go to `http://localhost/node`
 
@@ -61,6 +61,7 @@ This can be a head-scratcher since IIS Express 8 gives you both 32-bit and 64-bi
 - [using with MVC](http://weblogs.asp.net/jgalloway/archive/2011/10/26/using-node-js-in-an-asp-net-mvc-application-with-iisnode.aspx)
 - [portuguese: node.js no windows: instalando o iisnode](http://vivina.com.br/nodejs-windows-parte-2)
 - [integrated debugging](http://tomasz.janczuk.org/2011/11/debug-nodejs-applications-on-windows.html)
+- [**NEW: integrated debugging with node-inspector v0.7.3**](http://www.ranjithr.com/?p=98)
 - [pub/sub server using faye](http://weblogs.asp.net/cibrax/archive/2011/12/12/transform-your-iis-into-a-real-time-pub-sub-engine-with-faye-node.aspx)
 - [appharbor uses iisnode](http://blog.appharbor.com/2012/01/19/announcing-node-js-support)
 
